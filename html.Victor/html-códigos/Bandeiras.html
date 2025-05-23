@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bandeiras</title>
+    <style>
+        .bandeira {
+            border: solid 1px black;
+            width: 250px;
+            height: 150px;
+            float: left;
+            margin: 20px;
+        }
+
+        /* Holanda */
+        #holanda .linha1 {
+            background-color: #ff0000;
+            height: 50px;
+        }
+
+        #holanda .linha2 {
+            background-color: #ffffff;
+            height: 50px;
+        }
+
+        #holanda .linha3 {
+            background-color: #002aff;
+            height: 50px;
+        }
+
+        /* Alemanha */
+        #alemanha .linha1 {
+            background-color: #000000;
+            height: 50px;
+        }
+
+        #alemanha .linha2 {
+            background-color: #ff0000;
+            height: 50px;
+        }
+
+        #alemanha .linha3 {
+            background-color: #f2ff00;
+            height: 50px;
+        }
+
+        /* Itália */
+        #italia {
+            display: flex;
+        }
+
+        #italia .coluna1 {
+            background-color: #008000; /* verde */
+            width: calc(100% / 3);
+        }
+
+        #italia .coluna2 {
+            background-color: #ffffff; /* branco */
+            width: calc(100% / 3);
+        }
+
+        #italia .coluna3 {
+            background-color: #ff0000; /* vermelho */
+            width: calc(100% / 3);
+        }
+    </style>
+</head>
+<body>
+    <div id="bandeiras">
+        <div id="holanda" class="bandeira">
+            <div class="linha1"></div>
+            <div class="linha2"></div>
+            <div class="linha3"></div>
+        </div>
+
+        <div id="alemanha" class="bandeira">
+            <div class="linha1"></div>
+            <div class="linha2"></div>
+            <div class="linha3"></div>
+        </div>
+
+        <div id="italia" class="bandeira">
+            <div class="coluna1"></div>
+            <div class="coluna2"></div>
+            <div class="coluna3"></div>
+        </div>
+    </div>
+</body>
+</html>
+Bandeiras com STYLE
